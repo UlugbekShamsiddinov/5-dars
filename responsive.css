@@ -1,0 +1,72 @@
+/* @media only screen and (min-width: 768px){
+
+} */
+ @media (max-width: 400px){
+    .container{
+        width: 400px;
+    }
+    nav img{
+        width: 100px;
+        height: 70px;
+    }
+    nav ul{
+        display: none;
+    }
+    header{
+        /* border: none; */
+        margin-top: 0;
+        margin-top: 40px;
+    }
+    header .item1{
+        border: none;
+    }
+    header .item1 pre{
+        font-size: 50px;
+    }
+    header .item1 .text{
+        font-size: 18px;
+        margin-top: -60px;
+    }
+    header .item1 img{
+        margin-top: -60px;
+    }
+    header .item1 .registration{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    header .item1 .registration input{
+        margin-top: -70px;
+    }
+    header .item1 .registration button{
+        height: 35px;
+    }
+    footer{
+        height: 270px;
+    }
+    footer nav pre {
+        font-family: inter;
+        font-size: 27px;
+        color: white;
+        font-weight: 500;
+        position: absolute;
+        top: 0;
+        left: 0;
+        top: 20px;
+        left: 20px;
+    }
+    footer nav .info{
+        font-family: inter;
+        font-size: 10px;
+        color: #7E8CA0;
+        font-weight: 300;
+        position: absolute;
+        top: 0;
+        left: 0;
+        top: 160px;
+        left: 20px;
+    }
+    header .item2{
+        display: none;
+    }
+ }
